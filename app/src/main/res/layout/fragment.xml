@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fragment_background"
+    android:background="@mipmap/fragment_ydlens1"
+    >
+    <TextView
+        android:id="@+id/fragment_text"
+        android:layout_width="166dp"
+        android:layout_height="32dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:gravity="center"
+        android:text="立即进入"
+        android:textColor="@android:color/white"
+        android:background="@drawable/border_greey_roval_share"
+        android:textSize="14sp"
+        android:visibility="gone"
+        />
+
+</RelativeLayout>
