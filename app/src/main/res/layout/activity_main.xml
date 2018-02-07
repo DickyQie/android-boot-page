@@ -1,51 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context="com.channeloffdemo.MainActivity">
-    <FrameLayout
-        android:id="@+id/frame"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#abcdef" >
+        android:text="APP引导页"
+        android:textSize="23dp"
+        android:gravity="center"
+        android:layout_margin="15dp"
+        />
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="原生代码实现"
+        android:layout_marginTop="15dp"
+        />
 
-        <android.support.v4.view.ViewPager
-            android:id="@+id/viewpager"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:layout_gravity="bottom"
-            android:gravity="center" >
 
-            <View
-                android:id="@+id/y1"
-                android:layout_width="9dip"
-                android:layout_height="9dip"
-                android:layout_marginLeft="3dip"
-                android:layout_marginRight="3dip"
-                android:background="@drawable/y_focused" />
-
-            <View
-                android:id="@+id/y2"
-                android:layout_width="9dip"
-                android:layout_height="9dip"
-                android:layout_marginLeft="3dip"
-                android:layout_marginRight="3dip"
-                android:background="@drawable/y_normal" />
-
-            <View
-                android:id="@+id/y3"
-                android:layout_width="9dip"
-                android:layout_height="9dip"
-                android:layout_marginLeft="3dip"
-                android:layout_marginRight="3dip"
-                android:background="@drawable/y_normal" />
-        </LinearLayout>
-    </FrameLayout>
-
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Web网页实现" />
 </LinearLayout>
+

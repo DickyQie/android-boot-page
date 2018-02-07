@@ -1,0 +1,54 @@
+html, body {
+    position: relative;
+    height: 100%;
+}
+body {
+    background: #eee;
+    font-family: Tahoma,Arial,Helvetica Neue,Hiragino Sans GB,Simsun,sans-self;
+    font-size: 14px;
+    color:#000;
+    margin: 0;
+    padding: 0;
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.animation_speedup {
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.swiper-slide { position: relative; background-size: 100%; background-position: 50% 50%; background-repeat: no-repeat; }
+.swiper-slide .txt { position: absolute; top: 100px; left: 0; width: 100%; height: 100%; background-size: 100%; background-repeat: no-repeat; }
+.slide1 { background-image: url(../img/1.jpg); }
+.slide2 { background-image: url(../img/2.jpg); }
+.slide3 { background-image: url(../img/3.jpg); }
+.slide4 { background-image: url(../img/4.jpg); }
+.slide1 .txt { background-image: url(../img/txt1.png); }
+.slide2 .txt { background-image: url(../img/txt2.png); }
+.slide3 .txt { background-image: url(../img/txt3.png); }
+.slide4 .txt { background-image: url(../img/txt4.png); }
+.entry_button { position: absolute; left: 50%; bottom: 90px; margin-left: -91px; width: 182px; height: 42px; background-image: url(../img/btn.png); background-size: 100% 100%; overflow: hidden; z-index: 2; }

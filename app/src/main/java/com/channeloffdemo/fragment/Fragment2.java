@@ -9,8 +9,9 @@ import android.widget.RelativeLayout;
 
 import com.channeloffdemo.R;
 
+
 /**
- * Created by zq on 2016/11/12.
+ * Created by zhangqie on 2016/11/12.
  */
 
 
@@ -31,6 +32,6 @@ public class Fragment2 extends Fragment {
     }
     private void initView() {
         mRelativeLayout= (RelativeLayout) view.findViewById(R.id.fragment_background);
-        mRelativeLayout.setBackgroundResource(R.mipmap.fragment_ydlens2);
+        mRelativeLayout.setBackgroundResource(R.mipmap.tow);
     }
 }

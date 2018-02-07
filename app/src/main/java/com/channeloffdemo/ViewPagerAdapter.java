@@ -10,6 +10,7 @@ import android.support.v4.app.FragmentPagerAdapter;
 public class ViewPagerAdapter extends FragmentPagerAdapter{
 
 	List<Fragment> fragmentList;
+
 	public ViewPagerAdapter(FragmentManager fm) {
 		super(fm);
 	}
